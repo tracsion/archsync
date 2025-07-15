@@ -20,7 +20,7 @@ It tracks both official repo packages and AUR packages, so you can easily replic
 ### Save your current packages
 Generates a `archpkglist.toml` file with all explicitly installed packages.
 
-```bash
+
 archsync save
 
 Restore on a new system
