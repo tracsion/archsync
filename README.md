@@ -34,14 +34,31 @@ This reads 'archpkglist.toml' and reinstalls everything using pacman for
 repo packages and yay (or paru) for AUR packages.
 
 ------------------------------------------
-Build
+Get the ready-to-use binary
 ------------------------------------------
 
-You need Rust installed. Then run:
+You can also download a precompiled version from the GitHub Releases page:
+
+    https://github.com/yourusername/archsync/releases
+
+Then just make it executable and move it to your path:
+
+    chmod +x archsync
+    sudo mv archsync /usr/local/bin/
+
+------------------------------------------
+Build it yourself
+------------------------------------------
+
+If you prefer to compile from source, you need Rust installed. Then run:
 
     git clone https://github.com/tracsion/archsync.git
     cd archsync
     cargo build --release
+
+Copy the binary to your system path:
+
+    sudo cp target/release/archsync /usr/local/bin/
 
 ------------------------------------------
 Dependencies
@@ -56,6 +73,8 @@ If you don’t have yay:
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
+
+OR you can just install paru hehe:)
 
 ------------------------------------------
 License
