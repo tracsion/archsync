@@ -59,17 +59,6 @@ makepkg -si
 
 MIT License.
 See LICENSE for details.
-💻 Screenshot
 
-    Optional: You could paste an example CLI run here later.
 
 Enjoy your fast Arch package snapshot & restore tool! 🎉
-
-
----
-
-✅ If you’d like, I can also make:
-- a **LICENSE file** for you (MIT with your name/year),
-- or a **badges section** (with Rust version, license, etc).
-
-Just tell me! 🚀
