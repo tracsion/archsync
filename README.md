@@ -1,25 +1,18 @@
-# archsync
+#archsync
 
-`archsync` is a simple, fast CLI tool written in Rust for Arch Linux that helps you **save** and **restore** all your installed packages.  
+archsync is a simple, fast CLI tool written in Rust for Arch Linux that helps you save and restore all your installed packages.
 It tracks both official repo packages and AUR packages, so you can easily replicate your setup on a fresh Arch install.
+✨ Features
 
----
-
-## ✨ Features
-
-✅ Saves all explicitly installed packages into a clean TOML file  
-✅ Distinguishes between official repo packages (pacman) and AUR packages (yay/paru)  
-✅ Restores your entire package list automatically  
-✅ Colorful, user-friendly output  
+✅ Saves all explicitly installed packages into a clean TOML file
+✅ Distinguishes between official repo packages (pacman) and AUR packages (yay/paru)
+✅ Restores your entire package list automatically
+✅ Colorful, user-friendly output
 ✅ Small and blazing fast (built with Rust)
+🚀 Usage
+Save your current packages
 
----
-
-## 🚀 Usage
-
-### Save your current packages
-Generates a `archpkglist.toml` file with all explicitly installed packages.
-
+Generates an archpkglist.toml file with all explicitly installed packages.
 
 archsync save
 
@@ -60,5 +53,4 @@ makepkg -si
 MIT License.
 See LICENSE for details.
 
-
-Enjoy your fast Arch package snapshot & restore tool! 🎉
+🎉 Enjoy your fast Arch package snapshot & restore tool!
