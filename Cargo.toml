@@ -1,0 +1,11 @@
+[package]
+name = "archsync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.8", features = ["derive"] }
+toml_edit = "0.19"
+chrono = "0.4"
+colored = "2.0"
+anyhow = "1.0"
