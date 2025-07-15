@@ -43,10 +43,6 @@ You need Rust installed. Then run:
     cd archsync
     cargo build --release
 
-Copy the binary to your system path:
-
-    sudo cp target/release/archsync /usr/local/bin/
-
 ------------------------------------------
 Dependencies
 ------------------------------------------
