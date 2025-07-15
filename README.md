@@ -39,7 +39,7 @@ Build
 
 You need Rust installed. Then run:
 
-    git clone https://github.com/yourusername/archsync.git
+    git clone https://github.com/tracsion/archsync.git
     cd archsync
     cargo build --release
 
