@@ -39,7 +39,7 @@ Get the ready-to-use binary
 
 You can also download a precompiled version from the GitHub Releases page:
 
-    https://github.com/yourusername/archsync/releases
+    https://github.com/tracsion/archsync/releases
 
 Then just make it executable and move it to your path:
 
